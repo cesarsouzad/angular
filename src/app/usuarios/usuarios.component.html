@@ -1,0 +1,41 @@
+<!-- <p>{{usuario_select | uppercase}}</p>
+<p>{{hoje | date:"dd/MM/yyyy"}}</p>
+<p>{{81 | sqrt}}</p>
+<input type="text" [(ngModel)]="usuario_select">
+<button (click)="alterarNome()">clique</button> -->
+
+<div *ngIf="confirma" >
+    <ul *ngFor="let usuario of user" id="llop">
+        <li id="ifn" ><img id="li" [src]="usuario.img" alt=""> -- {{usuario.id}} -- {{usuario.name}} -- {{usuario.username}} </li>
+        <button (click)="modal(usuario)" id="pg">Pagar</button>     
+    </ul>
+</div>
+
+<div *ngIf="confirmodal" id="mode">
+ <button (click)="fechar()" id="X">X</button>
+    <div *ngIf="confirmado" id="mode">
+        <img [src]="usuarioclick.img" id="li">
+    <div>
+        <label id="lab">
+            Valor:<input id="digita" type="number" placeholder="Qual valor?"/>
+        </label>
+        <!-- <input currencyMask [(ngModel)]="value" /> -->
+    </div>
+    <label id="lab">Cartão:</label>
+        <select  id="CCC">
+            
+            <option class="opt"  *ngFor="let numero of cartao; let i = index">{{cartao[i].card_number}}</option>
+           
+        </select>
+        <!-- <input type="number" id="digita"/> -->
+        <button (click)="pagamento()" id="X">Pagar</button>
+       
+    </div> 
+    <div *ngIf="!confirmado" class="ok">
+        <h1>Pagamento Aprovado!</h1>
+    </div>
+</div>
+<!-- <ul [ngSwitch]="usuario_select">
+    <li *ngSwitchCase="1">Goku</li>
+    <li *ngSwitchCase="2">vegeta</li>
+</ul> -->

@@ -1,0 +1,14 @@
+div {
+    background-color: black;
+}
+span
+{
+    font-family: fantasy;
+    font-size: 50px;
+    text-indent: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    filter: blur(1px);
+}

@@ -1,0 +1,101 @@
+#mode{
+    position: absolute;
+    background-color: rgb(43, 0, 83);
+    width: 750px;
+    height: 250PX;
+    margin-left: 20%;
+    top: 0px;
+    margin-top: 0px;
+}
+
+
+#li
+{
+    border-radius: 43px;
+    background-color: blueviolet;
+    border: 8px solid;
+    border-bottom-left-radius: 0px;
+}
+#llop{
+    background-image: linear-gradient(to right, #000000, rgb(71, 0, 112), rgba(73, 0, 121, 0.431));
+}
+#pg{
+    background-color: blueviolet;
+    color: rgb(128 255 217);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 23px;
+    margin-left: 9px;
+}
+#ifn{
+    color: aqua;
+    text-decoration: none;
+    list-style: none;
+    font-size: xxx-large;
+    font-family: fantasy;
+}
+#X{
+    background-color: blueviolet;
+    color: rgb(128 255 217);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 23px;
+    margin-left: 9px;
+}
+#lab{
+    color: #80ffd9;
+    font-size: 20px;
+    display: flex;
+    
+}
+.ok{
+    color: turquoise;
+    font-size: 33px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+#digita{
+    color: #00ffe7;
+    background: blueviolet;
+    border-bottom: #80ffd9;
+    border: 1px solid aquamarine;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+.opt{
+    color: #00ffe7;
+    background: blueviolet;
+    border-bottom: #80ffd9;
+    border: 1px solid aquamarine;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+}
+#CCC{
+    color: #00ffe7;
+    background: blueviolet;
+    border-bottom: #80ffd9;
+    border: 1px solid aquamarine;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+}
